@@ -2,7 +2,7 @@
 //  SideMenuHeaderView.swift
 //  sideMenu
 //
-//  Created by Folio on 31/05/2022.
+//  Created by Fadi on 31/05/2022.
 //
 
 import SwiftUI
