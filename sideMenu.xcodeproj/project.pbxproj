@@ -11,6 +11,10 @@
 		0C0D51AD2845924F00AF1017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D51AC2845924F00AF1017 /* ContentView.swift */; };
 		0C0D51AF2845925100AF1017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0D51AE2845925100AF1017 /* Assets.xcassets */; };
 		0C0D51B22845925100AF1017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0D51B12845925100AF1017 /* Preview Assets.xcassets */; };
+		0C0D51B9284599AE00AF1017 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D51B8284599AE00AF1017 /* SideMenuView.swift */; };
+		0C0D51BB284599CA00AF1017 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D51BA284599CA00AF1017 /* SideMenuHeaderView.swift */; };
+		0C0D51BD284599E400AF1017 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D51BC284599E400AF1017 /* SideMenuOptionView.swift */; };
+		0C0D51BF28459A0F00AF1017 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D51BE28459A0F00AF1017 /* SideMenuViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0C0D51AC2845924F00AF1017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C0D51AE2845925100AF1017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0D51B12845925100AF1017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C0D51B8284599AE00AF1017 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		0C0D51BA284599CA00AF1017 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		0C0D51BC284599E400AF1017 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		0C0D51BE28459A0F00AF1017 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				0C0D51AC2845924F00AF1017 /* ContentView.swift */,
 				0C0D51AE2845925100AF1017 /* Assets.xcassets */,
 				0C0D51B02845925100AF1017 /* Preview Content */,
+				0C0D51B8284599AE00AF1017 /* SideMenuView.swift */,
+				0C0D51BA284599CA00AF1017 /* SideMenuHeaderView.swift */,
+				0C0D51BC284599E400AF1017 /* SideMenuOptionView.swift */,
+				0C0D51BE28459A0F00AF1017 /* SideMenuViewModel.swift */,
 			);
 			path = sideMenu;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0D51B9284599AE00AF1017 /* SideMenuView.swift in Sources */,
+				0C0D51BB284599CA00AF1017 /* SideMenuHeaderView.swift in Sources */,
 				0C0D51AD2845924F00AF1017 /* ContentView.swift in Sources */,
+				0C0D51BD284599E400AF1017 /* SideMenuOptionView.swift in Sources */,
+				0C0D51BF28459A0F00AF1017 /* SideMenuViewModel.swift in Sources */,
 				0C0D51AB2845924F00AF1017 /* sideMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sideMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = QTB5L5VPQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sideMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = QTB5L5VPQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
